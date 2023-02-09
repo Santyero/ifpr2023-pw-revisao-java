@@ -1,15 +1,8 @@
-// Implemente uma solução para gestão de dados de clientes, que deverá contemplar as seguintes regras:
-// - Deverá ter classes para cliente e uma para endereço. Um cliente pode ter vários endereços, como representar? Você definirá os atributos de cada classe.
-// - Incluir um campo ID para todas as classes, que deverá ser gerado de forma automática;
-// - Implementar métodos para incluir clientes e endereços. Onde devemos colocar esses métodos?
-// - Adicione o toString na classe cliente para mostrar as informações dos atributos da classe e sua associação;
-// - Deverá ter um método para retornar a quantidade de endereços ativos do cliente;
-// - Incluir um método para exibir todos os endereços, os ativos e inativos do cliente;
-// - Não é necessário interface gráfica. Incluir uma classe principal para executar e testar as classes e métodos criados.
-
-package com.atividade_6;
+package com.example.demo.atividade_6;
 
 public class Endereco {
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
     private String rua;
     private String bairro;
