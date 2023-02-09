@@ -1,0 +1,9 @@
+Implemente uma classe para Cálculo de IMC.
+Esta classe deverá, quando executada, solicitar o sexo, o peso e a altura, na sequência realizar o cálculo do IMC, conforme apresentado abaixo.
+O cálculo deverá ser feito em um método separado.
+Solicitar as informações ao usuário utilizando um JoptionPane.showInputDialog.
+
+O IMC é obtido a partir da divisão do peso (em Kg) pelo quadrado da altura (em metros).
+Após calcular o IMC do participante, utilize a tabela a seguir para interpretar e apresentar o resultado ao participante.
+
+

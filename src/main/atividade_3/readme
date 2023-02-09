@@ -1,0 +1,2 @@
+Implemente uma classe que deverá, quando executada, solicitar 03 valores separados por vírgula e apresentar esses valores em ordem crescente.
+A ordenação dos valores deverá ser feita em um método separado, sem utilizar qualquer mecanismo da linguagem de programação.

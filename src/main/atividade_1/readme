@@ -1,0 +1,9 @@
+- Crie uma classe e no método principal e solicite uma idade. 
+- Em seguida, apresente uma mensagem informando se é criança, adolescente, adulto ou idoso. 
+- Defina os intervalos de valores para classificar a idade entre essas categorias. 
+- O valor deverá ser solicitado ao usuário utilizando um JoptionPane.showInputDialog. 
+- Criar uma classe para a pessoa.
+    se a idade for menor que 12, é criança
+    se a idade for menor que 18, é adolescente
+    se a idade for menor que 60, é adulto
+    se a idade for maior que 60, é idoso
