@@ -1,8 +1,7 @@
-package com.example.demo.atividade_6;
+package atividade_6;
 
 public class Endereco {
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    private static int count = 0; 
     private int id;
     private String rua;
     private String bairro;
@@ -12,7 +11,7 @@ public class Endereco {
     private boolean ativo;
 
     public Endereco(int id, String rua, String bairro, String cidade, String estado, String cep, boolean ativo) {
-        this.id = id;
+        this.id = ++count;
         this.rua = rua;
         this.bairro = bairro;
         this.cidade = cidade;

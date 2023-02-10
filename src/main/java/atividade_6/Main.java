@@ -1,4 +1,4 @@
-package com.example.demo.atividade_6;
+package atividade_6;
 
 import javax.swing.JOptionPane;
 
@@ -23,6 +23,11 @@ public class Main {
         pessoa.addEndereco(new Endereco(1, "Rua 1", "Bairro 1", "Cidade 1", "Estado 1", "12345-678", true));
         pessoa.addEndereco(new Endereco(2, "Rua 2", "Bairro 2", "Cidade 2", "Estado 2", "12345-678", true));
         pessoa.addEndereco(new Endereco(3, "Rua 3", "Bairro 3", "Cidade 3", "Estado 3", "12345-678", false));
+
+        // for (Endereco endereco : pessoa.getEndereco()) {
+        //     System.out.println(endereco);
+        // }
+        
         
         JOptionPane.showMessageDialog(null, pessoa.toString());
         JOptionPane.showMessageDialog(null, "Quantidade de endereços ativos:" + pessoa.getQuantidadeEnderecosAtivos());

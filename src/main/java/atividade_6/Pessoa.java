@@ -1,6 +1,7 @@
-package com.example.demo.atividade_6;
+package atividade_6;
 
 public class Pessoa {
+    private static int count = 0;
     private int id;
     private String nome;
     private String cpf;
@@ -14,7 +15,7 @@ public class Pessoa {
     }
 
     public Pessoa(int id, String nome, String cpf, String rg, String telefone, String email) {
-        this.id = id;
+        this.id = ++count;
         this.nome = nome;
         this.cpf = cpf;
         this.rg = rg;
@@ -78,7 +79,7 @@ public class Pessoa {
     public String getEnderecosAtivos() {
         String texto = "Endereços ativos:";
         for (Endereco endereco : enderecos) {
-            if (endereco.isAtivo()) {
+            if (endereco != null && endereco.isAtivo()) {
                 texto += "\n " + endereco.toString();
             }
         }
@@ -88,7 +89,7 @@ public class Pessoa {
     public String getEnderecosInativos() {
         String texto = "Endereços inativos:";
         for (Endereco endereco : enderecos) {
-            if (!endereco.isAtivo()) {
+            if (endereco != null && !endereco.isAtivo()) {
                 texto += "\n " + endereco.toString();
             }
         }
@@ -98,7 +99,9 @@ public class Pessoa {
     public String getEnderecos() {
         String texto = "Endereços:";
         for (Endereco endereco : enderecos) {
-            texto += "\n " + endereco.toString();
+            if (endereco != null) {
+                texto += "\n " + endereco.toString();
+            }
         }
         return texto;
     }
@@ -106,7 +109,7 @@ public class Pessoa {
     public int getQuantidadeEnderecosAtivos() {
         int quantidade = 0;
         for (Endereco endereco : enderecos) {
-            if (endereco.isAtivo()) {
+            if (endereco != null && endereco.isAtivo()) {
                 quantidade++;
             }
         }
@@ -116,7 +119,7 @@ public class Pessoa {
     public int getQuantidadeEnderecosInativos() {
         int quantidade = 0;
         for (Endereco endereco : enderecos) {
-            if (!endereco.isAtivo()) {
+            if (endereco != null && !endereco.isAtivo()) {
                 quantidade++;
             }
         }
