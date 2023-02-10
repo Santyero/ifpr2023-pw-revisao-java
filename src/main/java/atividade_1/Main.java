@@ -1,5 +1,5 @@
 
-package com.atividade_1;
+package atividade_1;
 
 import javax.swing.JOptionPane;
 

@@ -1,4 +1,4 @@
-package com.atividade_1;
+package atividade_1;
 
 public class Pessoa {
     private int idade;
