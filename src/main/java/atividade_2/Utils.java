@@ -1,4 +1,4 @@
-package com.atividade_2;
+package atividade_2;
 
 public class Utils {
     public static String reverse(String str) {
