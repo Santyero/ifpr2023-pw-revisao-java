@@ -1,6 +1,6 @@
-package com.atividade_5;
+package atividade_5;
 
-import com.atividade_5.enums.Imc;
+import atividade_5.enums.Imc;
 
 public class IMC {
     public static Imc calcularIMC(String sexo, String peso, String altura) {

@@ -1,4 +1,4 @@
-package com.atividade_5;
+package atividade_5;
 
 public class Pessoa extends IMC{
     private String sexo;

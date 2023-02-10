@@ -1,4 +1,4 @@
-package com.atividade_5.enums;
+package atividade_5.enums;
 
 public enum Imc {
     ABAIXO_DO_PESO("Abaixo do peso"),
