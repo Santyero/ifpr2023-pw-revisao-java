@@ -1,0 +1,63 @@
+.list-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.list-buttons input {
+    border-radius: 4px;
+    border-width: 0;
+    padding: 0.5rem;
+}
+
+textarea {
+    width: 100vw;
+    background-color: #B1FFDB;
+    padding: 1rem;
+}
+
+.blocoMenus {
+    height: 200px;  
+    width: 100vw; 
+    background-color: #06CC8A;
+    padding: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.title {
+    height: 80%; 
+    display:flex; 
+    justify-content:center; 
+    align-items:center;
+    color: #ffffffd3
+}
+
+.buttonsMenu {
+    height: 10%; 
+    display:flex; 
+    justify-content:space-evenly;
+    align-items:center;
+}
+
+.buttonsMenu .subItens {
+    display:flex; 
+    justify-content:space-evenly;
+    align-items:center;
+}
+
+.buttonsMenu .subItens a {
+    margin: 1rem;
+}
+
+.textoAjuda {
+    height: 100%;
+    text-align: center;
+    background-color: #EAEAEA;
+    padding: 3rem 10rem;
+}
