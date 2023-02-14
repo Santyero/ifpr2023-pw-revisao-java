@@ -1,0 +1,11 @@
+Implemente uma solução que leia as seguintes informações de três times: 
+    - nome, 
+    - quantidade de jogos, 
+    - vitórias, 
+    - empates, 
+    - derrotas, 
+    - gols pró e gols contra
+Ao final, apresente as informações conforme o quadro abaixo. 
+Note que os dados de algumas colunas deverão ser calculados. 
+Os times deverão ser apresentados de acordo com o aproveitamento.
+As instruções dos cálculos podem ser acessadas no seguinte link: https://g1.globo.com/tecnologia/blog/tira-duvidas-de-tecnologia/post/confira-mais-dicas-do-excel-2010.html
